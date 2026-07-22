@@ -10,7 +10,7 @@ A high-end, highly interactive, and fully responsive homepage redesign built for
 ---
 
 ## 🔗 Live Demo
-**Check out the live project here:** [Insert Your Vercel Link Here] *(e.g., https://tcongs-assignment.vercel.app)*
+**Check out the live project here:**  https://tcongs-home.vercel.app
 
 ---
 
