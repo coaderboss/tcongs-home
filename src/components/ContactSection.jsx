@@ -124,12 +124,12 @@ export default function ContactSection() {
               </motion.div>
               
               {/* Cyber-style Verification Box */}
-              <motion.div custom={4} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={formVariants} className="bg-black/40 border border-white/10 rounded-xl px-5 py-4 flex items-center justify-between group/verify hover:border-white/20 transition-colors">
+              <motion.div custom={4} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={formVariants} className="bg-black/40 border border-white/10 rounded-xl px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-0 group/verify hover:border-white/20 transition-colors">
                 <span className="text-gray-400 text-sm font-mono flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-brand-pink animate-pulse"></span>
+                  <span className="w-2 h-2 rounded-full bg-brand-pink animate-pulse shrink-0"></span>
                   Human Verification: 9 + 6 =
                 </span>
-                <input type="text" placeholder="Enter Sum*" className="w-24 bg-transparent border-b border-white/20 text-white text-center outline-none focus:border-brand-yellow transition-colors font-mono" />
+                <input type="text" placeholder="Enter Sum*" className="w-full sm:w-24 bg-transparent border-b border-white/20 text-white text-left sm:text-center outline-none focus:border-brand-yellow transition-colors font-mono pb-1" />
               </motion.div>
 
               {/* Premium Shining Button */}
